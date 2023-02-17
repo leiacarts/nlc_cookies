@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: carlmarx, sans-serif;
+	/* font-weight: 400;
+		font-style: normal; */
+}
+
+:root {
+	--pop: ;
+}
+
+html {
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+	/* justify-content: center;
+		align-items: center;
+		text-align: center; */
+	background: whitesmoke;
+}
+
+body {
+	margin: 0;
+	font-weight: 400;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+}
+
+.form {
+	position: fixed;
+	top: 2%;
+	left: 2%;
+	/* transform: translate(-50%, -50%); */
+	z-index: 1;
+}
+
+.container {
+	/* padding: 1em; */
+	/* width: 100px; */
+	/* height: 100px; */
+	background-color: whitesmoke;
+	border-radius: 15px;
+	border: 2px solid #4a9b96;
+}
+
+h2 {
+	padding: 0.75em;
+	text-align: center;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.habits {
+	text-align: left;
+	list-style: none;
+	position: absolute;
+}
+
+ul {
+	display: inline-block;
+	top: 0%;
+	left: 200px;
+	translate: (-50%, -50%);
+
+}
+
+li {
+	/* .draggable { */
+	/* position: fixed; */
+	background-color: var(--pop);
+	/* background-color: #325456; */
+	/* border: 1px solid gray; */
+	padding: 10px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 3em;
+	border-radius: 50%;
+}
+
+.habits label {
+	flex: 1;
+	cursor: pointer;
+	font-size: ;
+}
+
+.habits input {
+	/* margin-right: 12px; */
+}
+
+.habits input {
+	display: none;
+}
+
+.habits input+label:before {
+	/* content: "+"; */
+	/* margin-right: 12px; */
+}
+
+.habits input+label span {
+	font-weight: 200;
+	font-size: 0.75rem;
+}
+
+.habits input:checked+label {
+	/* text-decoration: line-through; */
+	text-decoration: none;
+	color: lightgrey;
+}
+
+.habits button {
+	/* padding-left: 30px; */
+	/* background: none; */
+	margin: 1em;
+	outline: 0;
+	border: 0;
+	border-radius: 50%;
+}
+
+.addhabit {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.addhabit input {
+	padding: 0.75em;
+	margin: 5px;
+	outline: 0;
+	border: 0;
+	border-radius: 100px;
+}
+
+.addhabit input[type="submit" i] {
+	padding: 1em;
+}
+
+.addhabit select {
+	border-radius: 20px;
+	border: none;
+	padding: 0.5em;
+}
+
+.frequency {
+	width: 100%;
+	display: flex;
+	padding: 0.75em;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+/* .menuActive {
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05) inset, 0 0 15px #0d6adc;
+	text-decoration: underline;
+} */
+
+.li {
+	background: white;
+}
+
+.gradient {
+	background: blue;
+}

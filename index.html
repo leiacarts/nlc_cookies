@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>leia carter / nlc / habit tracker</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://use.typekit.net/tuv2vkz.css">
+	<link rel="stylesheet" href="https://use.typekit.net/tuv2vkz.css">
+	<link rel="stylesheet" href="https://use.typekit.net/tuv2vkz.css">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="form">
+		<div class="container">
+			<h2>habits</h2>
+			<p></p>
+			<form class="addhabit">
+				<input class="habit" type="text" name="habit" placeholder="enter habit name" required />
+				<input type="number" name="reps" placeholder="# of repetitions" min="1" required />
+				<div class="frequency">
+					<label for="timeframe">frequency: </label>
+					<select name="timeframe" id="timeframe">
+						<option value="Daily">daily</option>
+						<option value="Weekly">weekly</option>
+						<option value="Monthly">monthly</option>
+						<option value="Yearly">yearly</option>
+					</select>
+				</div>
+				<input type="submit" value="+" />
+			</form>
+		</div>
+
+		<div>
+			<ul class="habits">
+				<li class="li">HELLO???</li>
+			</ul>
+		</div>
+	</div>
+	<script src="app.js" async defer></script>
+</body>
+
+</html>
